@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "divinfra" {
 	ami = "ami-0fa3fe0fa7920f68e" 
-	instance_type = "t3.micro"
+	instance_type = "t3.nano"
 }
